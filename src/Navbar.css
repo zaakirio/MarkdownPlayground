@@ -1,0 +1,32 @@
+/* EXAMPLE 8 - Center on mobile*/
+.navbar-brand {
+    padding: 0px;
+  }
+  .navbar-brand>img {
+    height: 100%;
+    padding: 15px;
+    width: auto;
+  }
+@media only screen and (max-width : 768px){
+    .example-8 .navbar-brand {
+    padding: 0px;
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+  }
+  .example-8 .navbar-brand>img {
+    height: 100%;
+    width: auto;
+    padding: 7px 14px; 
+  }
+  }
+  
+  
+  /* EXAMPLE 8 - Center Background */
+  .example-8 .navbar-brand {
+    background: url(https://i.ibb.co/y8kQf1y/image.png) center / contain no-repeat;
+    width: 200px;
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+  }
