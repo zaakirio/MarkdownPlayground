@@ -1,3 +1,33 @@
+
+body {
+  background-color: wheat;
+}
+
+textarea {
+  background-color: wheat !important;
+  color: black !important; 
+}
+
+a {
+  color: rgb(41, 188, 236);
+}
+
+pre code {
+  color: lightgoldenrodyellow;
+}
+
 .container {
+  background-color: wheat;
+  color: black;
   margin-top: 24px;
 }
+
+.form-control {
+  color: black;
+  background-color: wheat;
+  background-clip: padding-box;
+  border: 1px solid wheat;
+}
+  
+
+

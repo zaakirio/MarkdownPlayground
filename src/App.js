@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import './DarkApp.css';
-import './Navbar.css';
-
+import './App.css';
 import marked from 'marked';
-
 import { sampleText } from './test-data/sampleText';
 
 class App extends Component {
@@ -50,7 +47,7 @@ class App extends Component {
             <textarea
               onChange={this.handleChange}
               value={this.state.text}
-              className='form-control dark-mode'
+              className='form-control'
               rows='35' />
           </div>
           <div className='col-sm-6 dark-mode'>

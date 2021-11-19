@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.5.3",
+    "countapi": "^1.0.0",
+    "countapi-js": "^1.0.2",
     "marked": "^0.5.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
